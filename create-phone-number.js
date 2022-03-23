@@ -10,3 +10,6 @@ function createPhoneNumber(numbers){
    }
     return num;
   }
+
+  //HOF below...
+  //return numbers.reduce((n,d) => n.replace('x',d), '(xxx) xxx-xxxx');
